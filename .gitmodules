@@ -1,3 +1,6 @@
 [submodule "Frameworks/iosProjectCommon"]
 	path = Frameworks/iosProjectCommon
 	url = git@github.com:MaksymDyomin/iosProjectCommon.git
+[submodule "iosProjectCommon"]
+	path = iosProjectCommon
+	url = git@github.com:MaksymDyomin/iosProjectCommon.git
