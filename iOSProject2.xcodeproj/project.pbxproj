@@ -31,6 +31,13 @@
 			remoteGlobalIDString = 6D24534F1E02B8910087B855;
 			remoteInfo = iosProjectCommonTests;
 		};
+		0425CDC71E02ED9D006386B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2453441E02B8910087B855;
+			remoteInfo = iosProjectCommon;
+		};
 		6D24531F1E02B85C0087B855 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D2453021E02B85C0087B855 /* Project object */;
@@ -172,6 +179,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0425CDC81E02ED9D006386B9 /* PBXTargetDependency */,
 			);
 			name = iOSProject2;
 			productName = iOSProject2;
@@ -336,6 +344,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0425CDC81E02ED9D006386B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosProjectCommon;
+			targetProxy = 0425CDC71E02ED9D006386B9 /* PBXContainerItemProxy */;
+		};
 		6D2453201E02B85C0087B855 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6D2453091E02B85C0087B855 /* iOSProject2 */;
