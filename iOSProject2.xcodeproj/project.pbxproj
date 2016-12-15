@@ -17,6 +17,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0425CDC31E02E735006386B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6D2453451E02B8910087B855;
+			remoteInfo = iosProjectCommon;
+		};
+		0425CDC51E02E735006386B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6D24534F1E02B8910087B855;
+			remoteInfo = iosProjectCommonTests;
+		};
 		6D24531F1E02B85C0087B855 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D2453021E02B85C0087B855 /* Project object */;
@@ -31,23 +45,10 @@
 			remoteGlobalIDString = 6D2453091E02B85C0087B855;
 			remoteInfo = iOSProject2;
 		};
-		6D2453671E02BE5E0087B855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D2453621E02BE5E0087B855 /* iosProjectCommon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D2453451E02B8910087B855;
-			remoteInfo = iosProjectCommon;
-		};
-		6D2453691E02BE5E0087B855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D2453621E02BE5E0087B855 /* iosProjectCommon.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D24534F1E02B8910087B855;
-			remoteInfo = iosProjectCommonTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosProjectCommon.xcodeproj; path = iosProjectCommon/iosProjectCommon.xcodeproj; sourceTree = "<group>"; };
 		6D24530A1E02B85C0087B855 /* iOSProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D24530D1E02B85C0087B855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D24530F1E02B85C0087B855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		6D2453291E02B85C0087B855 /* iOSProject2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProject2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D24532D1E02B85C0087B855 /* iOSProject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProject2UITests.swift; sourceTree = "<group>"; };
 		6D24532F1E02B85C0087B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D2453621E02BE5E0087B855 /* iosProjectCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iosProjectCommon.xcodeproj; path = Frameworks/iosProjectCommon/iosProjectCommon.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0425CDBF1E02E735006386B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0425CDC41E02E735006386B9 /* iosProjectCommon.framework */,
+				0425CDC61E02E735006386B9 /* iosProjectCommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6D2453011E02B85C0087B855 = {
 			isa = PBXGroup;
 			children = (
@@ -144,18 +153,9 @@
 		6D2453611E02BE440087B855 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D2453621E02BE5E0087B855 /* iosProjectCommon.xcodeproj */,
+				0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6D2453631E02BE5E0087B855 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6D2453681E02BE5E0087B855 /* iosProjectCommon.framework */,
-				6D24536A1E02BE5E0087B855 /* iosProjectCommonTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +250,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6D2453631E02BE5E0087B855 /* Products */;
-					ProjectRef = 6D2453621E02BE5E0087B855 /* iosProjectCommon.xcodeproj */;
+					ProductGroup = 0425CDBF1E02E735006386B9 /* Products */;
+					ProjectRef = 0425CDBE1E02E735006386B9 /* iosProjectCommon.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -264,18 +264,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6D2453681E02BE5E0087B855 /* iosProjectCommon.framework */ = {
+		0425CDC41E02E735006386B9 /* iosProjectCommon.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = iosProjectCommon.framework;
-			remoteRef = 6D2453671E02BE5E0087B855 /* PBXContainerItemProxy */;
+			remoteRef = 0425CDC31E02E735006386B9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D24536A1E02BE5E0087B855 /* iosProjectCommonTests.xctest */ = {
+		0425CDC61E02E735006386B9 /* iosProjectCommonTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = iosProjectCommonTests.xctest;
-			remoteRef = 6D2453691E02BE5E0087B855 /* PBXContainerItemProxy */;
+			remoteRef = 0425CDC51E02E735006386B9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -459,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sphere.iOSProject2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -470,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sphere.iOSProject2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -538,6 +540,7 @@
 				6D2453341E02B85C0087B855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D2453351E02B85C0087B855 /* Build configuration list for PBXNativeTarget "iOSProject2Tests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +549,7 @@
 				6D2453371E02B85C0087B855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D2453381E02B85C0087B855 /* Build configuration list for PBXNativeTarget "iOSProject2UITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +558,7 @@
 				6D24533A1E02B85C0087B855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
